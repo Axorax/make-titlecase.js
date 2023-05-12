@@ -1,0 +1,1 @@
+export function makeTitleCase(e){let t=e=>e.toLowerCase().replace(/(^|\s)\S/g,function(e){return e.toUpperCase()});if(!Array.isArray(e))return t(e);{let r=[];return e.forEach(e=>{r.push(t(e))}),r}}export default makeTitleCase
